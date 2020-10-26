@@ -1,5 +1,6 @@
 # Programs_Repo
 A repository to contribute and showcase your programs!
+<img src=hacktoberfest.png>
 <hr>
 
 1.Create a new folder for the respective programming language if non existent.
