@@ -40,4 +40,4 @@ int main(){
 	   scanf("%d",&a[i]);            // Read the array elements one by one
 	   
 	insertionsort(a,n);            // Call the insertion sort function
-
+}
