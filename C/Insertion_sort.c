@@ -24,7 +24,7 @@ int insertionsort(int a[],int n){         //Pass the array and it's size as para
 	printf("\nSorted array:\n");
     for(i=0;i<n;i++)
     {
-    	printf("%d\n",a[i]);        //Printing the sorted array
+    	printf("%d\n",a[i]);        //Print the sorted array
 	}
        
 }
@@ -41,3 +41,4 @@ int main(){
 	   
 	insertionsort(a,n);            // Call the insertion sort function
 }
+
