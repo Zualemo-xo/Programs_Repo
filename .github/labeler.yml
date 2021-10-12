@@ -1,17 +1,6 @@
-hacktoberfest-accepted:
-  - "*.*"
-  
 🐍 python:
   - "**/*.py"
-  - "*.py"
-  
-cpp:
-  - '*.cpp'
-c:
-  - '*.c'
-java:
-  - '*.java'
-
+  - "*.py" 
 
 📝 documentation:
   - "**/*.md"
