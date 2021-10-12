@@ -1,16 +1,19 @@
 hacktoberfest-accepted:
-  - "*.*"
+  - "*"
   
 🐍 python:
   - "**/*.py"
   - "*.py"
   
 cpp:
-  - '*.cpp'
+  - "**/*.cpp"
+  - "*.cpp"
 c:
-  - '*.c'
+  - "**/*.c"
+  - "*.c"
 java:
-  - '*.java'
+  - "**/*.java"
+  - "*.java"
 
 
 📝 documentation:
