@@ -1,6 +1,8 @@
 hacktoberfest-accepted:
   - "*"
-  - "**/*.*"
+  - "C/*.c"
+  - "CPP/*.cpp"
+  - "Python/*.py"
   
 🐍 python:
   - "**/*.py"
