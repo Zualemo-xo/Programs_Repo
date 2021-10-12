@@ -11,3 +11,8 @@
 
 ⚙ ci:
   - ".github/**"
+  
+hacktoberfest-accepted:
+  - C/**/*
+  - CPP/**/*
+  - Python/**/*
