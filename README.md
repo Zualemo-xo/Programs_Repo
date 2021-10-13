@@ -6,12 +6,12 @@ A repository to contribute and showcase your programs! Please Leave a Star and F
 
 # Instructions:
 
-1.Create a new folder for the respective programming language if non existent.
+1. Create a new folder for the respective programming language if non existent.
 <br><br>
 
-2.Fork and add in your programs.
+2. Fork and add in your programs.
 <br><br>
-3.Assignment to issue not necessary, issue mentions and Pull requests (with a message on the added programs) directly welcome!
+3. Assignment to issue not necessary, issue mentions and Pull requests (with a message on the added programs) directly welcome!
 <br><br>
 
 ## General Rules:
