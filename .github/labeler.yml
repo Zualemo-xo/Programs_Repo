@@ -12,7 +12,7 @@
 ⚙ ci:
   - ".github/**"
   
- hacktoberfest-accepted:
+hacktoberfest-accepted:
   - C/**/*
   - CPP/**/*
   - Python/**/*
