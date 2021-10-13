@@ -1,0 +1,19 @@
+🐍 python:
+  - "**/*.py"
+  - "*.py" 
+
+📝 documentation:
+  - "**/*.md"
+  - "*.md"
+
+🐳 docker:
+  - "Dockerfile"
+
+⚙ ci:
+  - ".github/**"
+  
+ hacktoberfest-accepted:
+  - C/**/*
+  - CPP/**/*
+  - Python/**/*
+  - Java/**/*
