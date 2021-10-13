@@ -1,5 +1,4 @@
 #The below program finds the roots of the quadratic equation
-
 print("\t ROOTS OF QUADRATIC EQUATION")
 print("\nINPUT:")
 print("Enter the coefficients of:-")
