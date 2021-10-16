@@ -1,46 +1,50 @@
-#include<stdio.h>  
-int search(int[], int, int, int);  
-void main ()  
-{  
-  int n,i,arr[20];
-  printf("Enter the value of N ");  
-  scanf("%d",&n);
-  for(i=0;i<n;i++)
-  {
-    scanf("%d",&arr[i]);
-  }
-  int no, loc=-1;   
-  printf("Enter the number which you want to search ");  
-  scanf("%d",&no);  
-  loc = search(arr, 0, 9, no);  
-  if(loc != -1)   
-  {  
-    printf("Number found at loc %d",loc);  
-  }  
-  else  
-  {  
-    printf("Number not found");  
-  }  
-}   
-int search(int a[], int start, int end, int no)  
-{  
-  int mid;  
-  if(end >= start)   
-  {     
-    mid = (start + end)/2;  
-    if(a[mid] == no)  
-    {  
-      return mid+1;  
-    }  
-    else if(a[mid] < no)   
-    {  
-      return search(a,mid+1,end,no);  
-    }  
-    else   
-    {  
-      return search(a,start,mid-1,no);  
-    }  
-    
-  }  
-  return -1;   
-}  
+#include <iostream>
+#include <queue>
+using namespace std;
+struct Node{
+   int data;
+   struct Node* left, *right;
+};
+// Function to get the count of half Nodes
+int halfcount(struct Node* node){
+   // If tree is empty
+   if (!node)
+   return 0;
+   int result = 0; // Initialize count of half nodes
+   // Do level order traversal starting from root
+   queue<Node *> myqueue;
+   myqueue.push(node);
+   while (!myqueue.empty()){
+      struct Node *temp = myqueue.front();
+      myqueue.pop();
+      if ((!temp->left && temp->right) || (temp->left && !temp->right)){
+         result++;
+      }
+      if (temp->left != NULL){
+         myqueue.push(temp->left);
+      }
+      if (temp->right != NULL){
+         myqueue.push(temp->right);
+      }
+   }
+   return result;
+}
+/* To allocate new Node with the given data and NULL left
+and right pointers. */
+struct Node* newNode(int data){
+   struct Node* node = new Node;
+   node->data = data;
+   node->left = node->right = NULL;
+   return (node);
+}
+int main(void){
+   struct Node *root = newNode(10);
+   root->left = newNode(20);
+   root->right = newNode(30);
+   root->left->left = newNode(40);
+   root->left->right = newNode(50);
+   root->left->left->right = newNode(60);
+   root->left->right->right = newNode(70);
+   cout <<"count is: "<<halfcount(root);
+   return 0;
+}
