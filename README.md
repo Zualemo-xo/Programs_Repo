@@ -1,7 +1,7 @@
 # Programs_Repo
 A repository to contribute and showcase your programs! Please Leave a Star and Follow my account!
 <br><br>
-**Earn additional perks thanks to hacktoberfest2021 by [DigitalOcean](https://hacktoberfest.digitalocean.com/) by contributing!**
+
 <br>
 
 # Instructions:
