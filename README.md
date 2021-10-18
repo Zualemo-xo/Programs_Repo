@@ -2,8 +2,6 @@
 A repository to contribute and showcase your programs! Please Leave a Star and Follow my account!
 <br><br>
 
-<br>
-
 # Instructions:
 
 1. Create a new folder for the respective programming language if non existent.
