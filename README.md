@@ -2,7 +2,7 @@
 
 
 <p align="center" >
- <b> A repository to contribute and showcase your programs! Please Leave a Star and Follow my account!</b>
+  <b> A repository to contribute and showcase your programs! Please Leave a Star and Follow my account!</b>
   <br><br>
   <img alt="GIF" src="https://user-images.githubusercontent.com/61049979/137813289-cf7b3b07-7669-4124-a300-8b7bb161510f.jpeg" width="35%"/>
 </p>
