@@ -28,3 +28,5 @@ A fun Java **Whac-A-Mole** game featuring **Mario characters**! Built with Swing
 🔄 Restart button
 
 🏆 High score tracking
+
+<img width="992" height="877" alt="image" src="https://github.com/user-attachments/assets/d131dff7-3d13-4258-9acc-3febc1c6066f" />
