@@ -9,7 +9,4 @@ A classic Tic-Tac-Toe implementation with Java Swing GUI. Features interactive 3
 - 🤝 Tie game recognition
 - 🎨 Visual highlights for wins/ties
 
-## Quick Start
-```bash
-javac TicTacToe.java
-java TicTacToe
+<img width="958" height="922" alt="image" src="https://github.com/user-attachments/assets/0cb9d768-264f-44d9-99f6-fe8b1f658c58" />
